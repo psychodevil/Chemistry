@@ -1,5 +1,5 @@
 ---
-permalink: chemistry/about
+permalink: /about
 ---
 # This is the About page
 
