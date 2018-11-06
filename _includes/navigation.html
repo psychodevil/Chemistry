@@ -2,7 +2,7 @@
     <div class="navbar-nav">
       {% for item in site.data.navigation %}
         <div class="nav-item {% if item.link==page.url %}active{% endif %}">
-          <a href="{{ item.link }}" class="nav-link">
+          <a href="https://psychodevils.github.io/chemistry/{{ item.link }}" class="nav-link">
               {%- if item.name=="Home" -%}
                 <span class="fa fa-home fa-lg" aria-hidden="true"></span>
               {% else %}
